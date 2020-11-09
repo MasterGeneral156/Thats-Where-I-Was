@@ -1,0 +1,22 @@
+modLoader="javafml" #mandatory
+loaderVersion="[34,)"
+updateJSONURL="https://raw.githubusercontent.com/MasterGeneral156/Version/master/Thats-Where-I-Was.json"
+issueTrackerURL="https://github.com/MasterGeneral156/Thats-Where-I-Was/issues"
+displayURL="https://minecraft.curseforge.com/projects/that"
+logoFile="logo.png"
+credits=""
+authors="TheMasterGeneral"
+license="https://raw.githubusercontent.com/MasterGeneral156/Thats-Where-I-Was/1.16/LICENSE"
+
+[[mods]] 
+modId="twiw"
+version="1.0.0"
+displayName="That's Where I Was!" #mandatory
+description="Recall an old position by storing it in a charm and using said charm to warp back!"
+
+[[dependencies.moglowstone]]
+    modId="ctdcore"
+    mandatory=true
+    versionRange="[2.1.1,]"
+    ordering="NONE"
+    side="BOTH"
