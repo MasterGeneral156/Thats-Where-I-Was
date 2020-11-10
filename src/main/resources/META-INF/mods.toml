@@ -2,9 +2,9 @@ modLoader="javafml" #mandatory
 loaderVersion="[34,)"
 updateJSONURL="https://raw.githubusercontent.com/MasterGeneral156/Version/master/Thats-Where-I-Was.json"
 issueTrackerURL="https://github.com/MasterGeneral156/Thats-Where-I-Was/issues"
-displayURL="https://minecraft.curseforge.com/projects/that"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/thats-where-i-was"
 logoFile="logo.png"
-credits=""
+credits="TMG"
 authors="TheMasterGeneral"
 license="https://raw.githubusercontent.com/MasterGeneral156/Thats-Where-I-Was/1.16/LICENSE"
 

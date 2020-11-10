@@ -9,7 +9,7 @@
     "key": {
 		"N": { "tag": "forge:ingots/netherite" },
         "D": { "tag": "forge:gems/diamond" },
-		"S": { "tag": "forge:blocks/stone" }
+		"S": { "item": "minecraft:stone" }
     },
     "result": {
         "item": "twiw:item_teleporter",
