@@ -76,11 +76,12 @@ public class ItemTeleporter extends CTDItem {
 	public static void setCoords(ItemStack stackIn, PlayerEntity playerIn)
 	{		
 		CompoundNBT compoundnbt = new CompoundNBT();
+		int damage = stackIn.getDamage();
 		compoundnbt.putDouble("posX", playerIn.getPosX());
 		compoundnbt.putDouble("posY", playerIn.getPosY());
 		compoundnbt.putDouble("posZ", playerIn.getPosZ());
 		stackIn.setTag(compoundnbt);
-		
+		stackIn.damageItem(damage, playerIn, null);
 	}
 	
 	public static double getCoordsX(ItemStack stackIn)
