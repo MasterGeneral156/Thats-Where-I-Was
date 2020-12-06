@@ -103,9 +103,6 @@ public class ItemTeleporter extends CTDItem {
 	
 	public static boolean validTeleport(double posX, double posY, double posZ)
 	{
-		TWIW.LOGGER.info(posX);
-		TWIW.LOGGER.info(posY);
-		TWIW.LOGGER.info(posZ);
 		if ((posX == 0.0D) && (posY < 1.0D) && (posZ == 0.0D))
 		{
 			return false;
@@ -119,7 +116,6 @@ public class ItemTeleporter extends CTDItem {
 	@Override
 	public void onCreated(ItemStack stack, World worldIn, PlayerEntity playerIn) 
 	{
-		TWIW.LOGGER.info("Set defaults.");
 		CompoundNBT compoundnbt = new CompoundNBT();
 		compoundnbt.putDouble("posX", Double.NaN);
 		compoundnbt.putDouble("posY", Double.NaN);
