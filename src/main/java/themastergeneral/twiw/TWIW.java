@@ -36,5 +36,9 @@ public class TWIW
     {
     	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ModUtils.ModID);
     	public static final RegistryObject<Item> item_teleporter = ItemRegistry.ITEMS.register("item_teleporter", () -> TWIWItems.item_teleporter);
+    	public static final RegistryObject<Item> item_teleporter_2 = ItemRegistry.ITEMS.register("item_teleporter_2", () -> TWIWItems.item_teleporter_2);
+    	public static final RegistryObject<Item> item_teleporter_3 = ItemRegistry.ITEMS.register("item_teleporter_3", () -> TWIWItems.item_teleporter_3);
+    	public static final RegistryObject<Item> item_teleporter_4 = ItemRegistry.ITEMS.register("item_teleporter_4", () -> TWIWItems.item_teleporter_4);
+    	public static final RegistryObject<Item> item_teleporter_5 = ItemRegistry.ITEMS.register("item_teleporter_5", () -> TWIWItems.item_teleporter_5);
     }
 }

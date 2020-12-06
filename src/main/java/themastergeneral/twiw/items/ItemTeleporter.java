@@ -27,9 +27,9 @@ import themastergeneral.twiw.TWIW;
 
 public class ItemTeleporter extends CTDItem {
 
-	public ItemTeleporter() 
+	public ItemTeleporter(int damage) 
 	{
-		super(new Item.Properties().group(ItemGroup.TOOLS).maxStackSize(1).maxDamage(5).isImmuneToFire());
+		super(new Item.Properties().group(ItemGroup.TOOLS).maxStackSize(1).maxDamage(damage).isImmuneToFire());
 	}
 
 	@Override
