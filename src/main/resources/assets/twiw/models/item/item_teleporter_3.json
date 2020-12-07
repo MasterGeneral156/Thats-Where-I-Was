@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "twiw:items/item_teleporter_3"
+    }
+}

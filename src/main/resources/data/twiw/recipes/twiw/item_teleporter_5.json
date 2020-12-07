@@ -7,12 +7,12 @@
 		"SNS"
     ],
     "key": {
-		"N": { "tag": "minecraft:coals" },
-        "D": { "tag": "forge:glass_panes" },
-		"S": { "tag": "minecraft:planks" }
+		"N": { "tag": "forge:ingots/netherite" },
+        "D": { "item": "minecraft:beacon" },
+		"S": { "item": "minecraft:wither_skeleton_skull" }
     },
     "result": {
-        "item": "twiw:item_teleporter",
+        "item": "twiw:item_teleporter_5",
 		"count": 1
     }
 }

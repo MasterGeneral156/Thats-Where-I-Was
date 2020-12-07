@@ -1,3 +1,7 @@
 {
-    "item.twiw.item_teleporter"="Memory Recall"
+    "item.twiw.item_teleporter_5"="Enlightened Memory Recall",
+	"item.twiw.item_teleporter_4"="Darling Memory Recall",
+	"item.twiw.item_teleporter_3"="Burdened Memory Recall",
+	"item.twiw.item_teleporter_2"="Tainted Memory Recall",
+	"item.twiw.item_teleporter"="Premature Memory Recall"
 }
